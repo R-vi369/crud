@@ -1,0 +1,51 @@
+.create {
+  background-color: rgb(45, 48, 62);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-top: 2rem;
+
+  .box {
+    .logoCreate{
+        text-align: center;
+        padding-bottom: 1rem;
+        text-transform: uppercase;
+        font-size: 2rem;
+        font-weight: 700;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    width: 20%;
+    height: 60vh;
+    border: 2px solid rgb(122, 118, 118);
+    box-shadow: 2px 2px 3px grey;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 4rem;
+    flex-direction: column;
+    input {
+      background-color: transparent;
+      border: none;
+      outline: none;
+      border-bottom: 1px solid white;
+      color: rgb(252, 252, 252);
+    }
+    .name {
+      padding-bottom: 2rem;
+    }
+
+    .btn{
+        margin-top: 2rem;
+        padding: 0.4rem;
+        font-size: 1rem;
+        color: white;
+        font-weight: 500;
+        border: 1px solid white;
+        &:hover{
+            background-color: white;
+            color: black;
+        }
+    }
+  }
+}
